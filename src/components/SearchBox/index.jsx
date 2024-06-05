@@ -61,7 +61,7 @@ function SearchBox({ getApiData }) {
       id="search-container"
       onKeyDown={(event) => {
         if ((event.ctrlKey || event.metaKey) && event.key === "/") {
-          event.preventDefault(); // Prevent the default behavior of the browser (like opening browser's find dialog)
+          event.preventDefault();
           document.getElementById("search-container").focus();
         }
       }}
