@@ -7,6 +7,8 @@ This template provides a minimal setup to get React working in Vite with HMR and
 - Node.js (v14 or later recommended)
 - npm or Yarn package manager
 
+![Alt text](src/assets/Screenshot (455).png)
+
 ## Getting Started
 
 1. **Clone the repository:**
