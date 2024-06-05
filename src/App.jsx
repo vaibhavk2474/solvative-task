@@ -37,7 +37,7 @@ function App() {
     } catch (error) {
       console.log("getApiData error", error);
 
-      setError(error?.message || "Something went wrong");
+      setError(error?.response?.data?.message || "Something went wrong");
     }
   };
 
